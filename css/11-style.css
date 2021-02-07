@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+main {
+    position: relative;
+    background-color: tomato;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+#esp {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+section {
+    position: absolute;
+    width: 30vw;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#ast {
+    max-width: 30vw;
+    height: auto;
+}
